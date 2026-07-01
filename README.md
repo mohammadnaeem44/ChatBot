@@ -214,7 +214,6 @@ Send a message to the AI and receive a response.
 ```
 
 ---
-
 ## Roadmap
 
 The following features are planned for future versions:
@@ -230,18 +229,6 @@ The following features are planned for future versions:
 
 ---
 
-## Troubleshooting
-
-| Symptom | Cause | Fix |
-|---|---|---|
-| `ModuleNotFoundError: No module named 'torch'` | Packages installed in system Python, not venv | Run `pip install` using `venv\Scripts\python.exe -m pip install ...` |
-| `ValueError: requires accelerate` | `accelerate` package missing | `pip install accelerate` |
-| `OSError: Repo id must use alphanumeric chars` | Invalid characters in `model_id` | Remove anything after `:` in the model ID |
-| `Could not reach Flask server` | HTML opened as a file, not via Flask | Open `http://127.0.0.1:5000` instead of double-clicking the HTML file |
-| `Address already in use` on port 5000 | Another process using port 5000 | Change `port=5000` to `port=5001` in `chatbot.py` and update the `API` variable in `index.html` |
-| Server exits after one reply | Script ends after test block | Replace the test block with a `while True: time.sleep(1)` loop |
-
----
 
 ## License
 
