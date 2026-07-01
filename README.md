@@ -1,4 +1,4 @@
-# Qwen Chat — Local AI Chatbot
+# AI Chatbot
 
 A lightweight, fully local AI chatbot powered by **Qwen2-0.5B-Instruct**, served via a **Flask** REST API and a clean browser-based chat interface. No cloud API keys required. All inference runs on your machine.
 
@@ -246,3 +246,7 @@ The following features are planned for future versions:
 ## License
 
 This project is for personal and educational use. The Qwen2 model is subject to the [Qwen License Agreement](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct).
+
+## Author
+Mohammad Naeem 
+Computer Systems Engineer 
