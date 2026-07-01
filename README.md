@@ -15,7 +15,7 @@ A lightweight, fully local AI chatbot powered by **Qwen2-0.5B-Instruct**, served
 - [Configuration](#configuration)
 - [API Reference](#api-reference)
 - [Roadmap](#roadmap)
-- [Troubleshooting](#troubleshooting)
+- [Author](#Author)
 
 ---
 
