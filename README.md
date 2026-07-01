@@ -2,6 +2,9 @@
 
 A lightweight, fully local AI chatbot powered by **Qwen2-0.5B-Instruct**, served via a **Flask** REST API and a clean browser-based chat interface. No cloud API keys required. All inference runs on your machine.
 
+<img width="1992" height="1717" alt="image" src="https://github.com/user-attachments/assets/b19f918b-beee-4d53-98bf-ffc3c8103585" />
+
+
 ---
 
 ## Table of Contents
